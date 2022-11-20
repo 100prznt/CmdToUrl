@@ -15,7 +15,7 @@ namespace CmdToUrl
         {
             if (args.Length < 1)
             {
-                Console.WriteLine("Missing arguments, please provide an URL in the first argument. Excecution aborted!");
+                Console.WriteLine("Missing arguments, please provide an URL in the first argument. Execution aborted!");
                 Console.ReadKey();
             }
 
@@ -36,7 +36,7 @@ namespace CmdToUrl
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                Console.WriteLine("Excecution aborted!");
+                Console.WriteLine("Execution aborted!");
                 Console.ReadKey();
             }
             Thread.Sleep(3000);
